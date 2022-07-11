@@ -1,0 +1,24 @@
+:root {
+    --colorRojo : #DF5837;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+ul, ol {
+    padding-left: 0;
+}
+
+a{
+    text-decoration: none;
+}
