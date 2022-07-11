@@ -23,6 +23,7 @@ body.home {
 
 .home__header__nav {
     display: none;
+    width: 100%;
 }
 
 /* MAIN */
@@ -63,7 +64,7 @@ body.home {
 .home__main__aside {
     width: 100%;
 }
-.home__main__aside__section--tutoriales h2, .home__main__aside__section--publicidad h2{
+.home__main__aside h2{
     background-color: #fff;
     border: 1px solid cadetblue;
     margin-bottom: 20px;
@@ -89,6 +90,7 @@ body.home {
 
 .home__main__aside__section--publicidad article {
     display: flex;
+    flex-wrap: wrap;
     padding: 10px;
     flex-direction: column;
     gap: 10px;
