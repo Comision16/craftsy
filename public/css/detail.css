@@ -4,7 +4,7 @@
     padding: 20px;
 }
 
-.detail__main__section figure img {
+.detail__main__section img {
     width: 100%;
 }
 
@@ -20,4 +20,31 @@
 
  .detail__main__section--content h2{
     margin: 20px 0;
+ }
+
+ @media (min-width:768px) {
+    .detail__main {
+        padding: 30px;
+    }
+
+    .detail__main__section__article {
+        display: flex;
+        gap: 15px;
+        flex-direction: row-reverse;
+    }
+
+    .detail__main__section--images{
+        flex-direction: column;
+        gap: 5px;
+     }
+
+     .detail__main__section--images img{
+        width: 100%;
+     }
+ }
+
+ @media (min-width:1024px) {
+    .detail__main {
+        padding: 30px 200px;
+    }
  }
