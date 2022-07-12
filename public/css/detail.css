@@ -1,0 +1,23 @@
+/* MAIN */
+
+.detail__main__section {
+    padding: 20px;
+}
+
+.detail__main__section figure img {
+    width: 100%;
+}
+
+.detail__main__section--images{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.detail__main__section--images img{
+    width: 32%;
+ }
+
+ .detail__main__section--content h2{
+    margin: 20px 0;
+ }

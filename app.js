@@ -7,5 +7,6 @@ const app = express();
 app.use(express.static('public'));
 
 app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views', 'home.html' )));
+app.get('/product-detail', (req,res) => res.sendFile(path.join(__dirname, 'views', 'productDetail.html' )));
 
 app.listen(port, () => console.log('Server running in http://localhost:' + port))

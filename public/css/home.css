@@ -1,10 +1,3 @@
-/* GENERAL */
-body.home {
-    background-image: url('/images/bg-2.png');
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
 /* HEADER */
 .home__header {
     background-color: var(--colorRojo);
@@ -39,9 +32,6 @@ body.home {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #fff;
-    width: 100%;
-    padding: 20px 0;
     gap: 20px;
     margin-bottom: 20px;
 }
@@ -52,14 +42,6 @@ body.home {
 
 .home__main__section__article--product h2 {
     margin: 20px 0;
-}
-
-.home__main__section__article--product a {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: var(--colorRojo);
-    color: #fff;
 }
 
 .home__main__section__article--product figure img {
@@ -73,14 +55,14 @@ body.home {
 
 .home__main__aside h2 {
     background-color: #fff;
-    border: 1px solid cadetblue;
+    border: 1px solid var(--colorCeleste);
     margin-bottom: 20px;
     padding: 10px;
 }
 
 .home__main__aside__section--tutoriales article {
     background-color: #fff;
-    border: 1px solid cadetblue;
+    border: 1px solid var(--colorCeleste);
     border-bottom: none;
     display: flex;
     align-items: center;
@@ -89,7 +71,7 @@ body.home {
 }
 
 .home__main__aside__section--tutoriales article:last-child {
-    border-bottom: 1px solid cadetblue;
+    border-bottom: 1px solid var(--colorCeleste);
 }
 
 .home__main__aside__section--publicidad {
