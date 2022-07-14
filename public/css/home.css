@@ -21,6 +21,16 @@
     width: 100%;
 }
 
+.home__header__nav a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.show {
+    display:block;
+}
+
 /* MAIN */
 .home__main {
     display: flex;
@@ -137,11 +147,6 @@
     .home__header__nav {
         display: flex;
         justify-content: space-between;
-    }
-
-    .home__header__nav a {
-        color: #fff;
-        text-transform: uppercase;
     }
 
     .home__header__nav--menu, .home__header__nav--user {
