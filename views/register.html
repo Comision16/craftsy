@@ -13,21 +13,26 @@
 <body class="register">
     <header class="home__header">
         <div class="home__header__logo">
-            <a href="/"><img src="/images/logo.png" alt=""></a>
+            <a href="/"><img src="/images/logo.png" alt=""></a> 
         </div>
-        <button class="home__header__burger" onclick="document.querySelector('.home__header__nav').classList.toggle('show')"><i class="fa fa-bars"></i> Menu </button>
-        <nav class="home__header__nav">
-            <ul class="home__header__nav--menu">
-                <li><a href="">Computadoras</a></li>
-                <li><a href="">Tablets</a></li>
-                <li><a href="">Celulares</a></li>
-            </ul>
-            <ul class="home__header__nav--user">
-                <li><a href="/login">Login</a></li>
-                <li><a href="/register">Registro</a></li>
-            </ul>
+        <nav class="home__header__nav--search">
+            <form action="" >
+                <div class="form__box__search">
+                    <input type="text" placeholder="Encontrá lo que necesitas.." name="keywords"><button type="submit" class="form__button--search"><i class="fa fa-search"></i></button>
+                </div>
+            </form>
         </nav>
-    </header>
+        <button class="home__header__burger" onclick="document.querySelector('.home__header__nav--navigation').classList.toggle('home__show'); document.querySelector('.home__header__nav--user').classList.toggle('home__show')"><i class="fa fa-bars"></i> Menu </button>
+        <ul class="home__header__nav--navigation">
+            <li><a href="">Computadoras</a></li>
+            <li><a href="">Tablets</a></li>
+            <li><a href="">Celulares</a></li>
+        </ul>
+        <ul class="home__header__nav--user">
+            <li><a href="/login">Login</a></li>
+            <li><a href="/register">Registro</a></li>
+        </ul>
+     </header>
     <main class="register__main">
         <section class="register__main__section general__main__section">
            <h1>Registrate</h1>
